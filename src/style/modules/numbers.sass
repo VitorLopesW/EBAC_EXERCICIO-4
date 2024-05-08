@@ -1,0 +1,31 @@
+@import '../color.sass'
+
+    
+.numbers 
+    margin: 30px
+    flex-direction: column
+    font-family: 'Jaini Purva', sans-serif
+    color: $amarelo
+    h2
+        font-size: 2.5em
+        margin: 0
+        @media(max-width: 375px)
+            font-size: 1.5em 
+    img
+        transition: all 1s
+        opacity: 0
+        cursor: pointer
+        @media(max-width: 768px)
+            width: 80px
+        @media(max-width: 425px)
+            width: 30px   
+    &__winners
+        transition: all 1s
+        font-size: 0.8em
+        background: rgba(252, 246, 223, 0.1)
+        color: $amarelo
+        border: 1px solid $amarelo
+        margin-top: 5px
+        padding: 20px
+        border-radius: 10px
+        opacity: 0

@@ -1,0 +1,30 @@
+@import '../color.sass'
+
+.line
+    width: 100%
+    height: 10px
+    background: rgb(15, 15, 15)
+    position: relative
+    overflow: hidden
+    &__content
+        width: 100%
+        height: 500px
+        background: rgb(29, 29, 29)
+        position: absolute
+        animation: loopSlide 8s infinite
+    &__content--left
+        width: 100%
+        height: 500px
+        background: $amarelo
+        position: absolute
+        animation: loopSlide--left 1130s infinite
+@keyframes loopSlide
+    0%
+        left: -100%
+    100%
+        left: 100%
+@keyframes loopSlide--left
+    0%
+        left: 100%
+    100%
+        left: -100%

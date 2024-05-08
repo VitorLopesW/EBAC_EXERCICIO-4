@@ -1,0 +1,32 @@
+.gallery
+    .row
+        margin: 15px
+        .col
+            margin-bottom: 10px
+            overflow: hidden
+            height: 150px
+            display: flex
+            justify-content: center
+            align-items: center
+            @media(max-width: 1920px)
+                height: 150px
+            @media(max-width: 1440px)
+                height: 150px
+            @media(max-width: 1024px)
+                height: 200px
+            @media(max-width: 768px)
+                height: 170px
+            @media(max-width: 425px)
+                height: 90px
+            img
+                width: 100%
+                cursor: pointer
+
+.modal-content
+    background: rgba(0, 0, 0, 0.603)
+    color: white
+.modal-dialog
+    max-width: fit-content
+.modal-header
+    background: white
+    
