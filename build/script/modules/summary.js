@@ -29,7 +29,7 @@ summary = `
                 </div>
             </div>
             <video autoplay muted id='summaryVid'>
-                <source src="assets/videos/Trailer.mp4" type="video/mp4">
+                <source src="assets/videos/trailer.mp4" type="video/mp4">
             </video>
         </div>
     </div>
@@ -60,6 +60,7 @@ window.onload = function() {
     //
     const saibaMais = $('#saibaMaisButton')
     saibaMais.on('click', function() {
+        console.log('a')
         saibaMais.css({
             display: 'none',
         })

@@ -4,7 +4,8 @@
         import summary from './modules/summary.js'
         import lines from './modules/lines.js'
         import watch from './modules/watch.js'
-        import gallery from './modules/gallery.js'
+        // GALERIA COM PROBLEMA, DESABILITA O SUMARIO
+        //import gallery from './modules/gallery.js'
 
 // Adicionar sessões, no website.
         function addSession(sessions) {
@@ -33,7 +34,7 @@ const blankSpace = '<div class="blank-space"></div>'
                 /**/lines,
                 numbers,
                 /**/lines,
-                gallery,
+                //gallery,
                 /**/lines,
                 watch,
                 /**/lines,
