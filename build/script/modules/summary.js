@@ -34,7 +34,7 @@ summary = `
         </div>
     </div>
 `
-window.onload = function() {
+export function loadSummary() {
     const container = $('#summaryContainer')
     const summary = $('.summary')
     const width = container.width()
